@@ -56,6 +56,12 @@ export default [
     redirect: '/welcome',
   },
   {
+    name: 'design',
+    path: '/design',
+    component: './Design',
+    layout: {},
+  },
+  {
     path: '*',
     layout: false,
     component: './404',
